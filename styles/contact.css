@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+
+}
+
+body {
+    background-image: url('/images/background/background1.jpg'); 
+    backdrop-filter: blur(5px);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.wrapper {
+    min-height: 100vh;
+    background-color: white;
+    padding: 30px 0;
+    box-shadow: rgba(4, 220, 199, 0.35) 0px 5px 15px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+}
+
+.main-bg {
+    background-image: url('/images/background/wallpaperflare.com_wallpaper (1).jpg'); 
+    backdrop-filter: blur(5px);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.gradient-bg {
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+}
+
+.btn-gradient {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+}
+
+.gradient-text {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.contact-form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form h2 {
+    text-align: center;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact-form input, 
+.contact-form select, 
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-form button:hover {
+    background-color: #219150;
+}
+
+.delivery-charges {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #1B1F3B;
+    color: white; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.delivery-charges h2 {
+    color: #FFD700; 
+    text-align: center;
+}
+
+.delivery-charges p {
+    color: #D3D3D3; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: #1B1F3B; 
+    color: white; 
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #2c3e50; 
+}
+
+th {
+    background: #24324A; 
+    color: #FFD700; 
+    font-weight: bold;
+}
+
+
+caption {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+header nav ul li a:active {
+    color: rgb(0, 157, 255);
+     text-decoration: none;
+     font-size: 18px;
+ }
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}

@@ -1,0 +1,121 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Emblemy Collectible Books</title>
+    <link rel="stylesheet" href="styles/contactpart2.css">
+    <link rel="stylesheet" href="styles/contact.css"> 
+</head>
+<body>
+    <header>
+        <div class="placeholder"></div>
+        <div class="navigation">
+            <h1 class="contact-title">
+                Contact Us
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="books.html">Books</a></li>
+                    <li><a href="19th-century-books.html">19th Century Books</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="delivery.html">Delivery</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="img-box logo">
+            <img src="images/books/book-logo.png" alt="">
+        </div>
+
+    </header>
+
+    <div class="wrapper main-bg">
+    <main>  
+        <section class="contact-form">
+            <h2>Get in Touch</h2>
+            <form action="#" method="post" aria-labelledby="contact-form-title">
+                <fieldset>
+                    <legend id="contact-form-title">Contact Form</legend>
+                    
+                    <!-- Title Field -->
+                    <label for="title">Title:</label>
+                    <select id="title" name="title" required>
+                        <option value="">Select</option>
+                        <option value="Mr">Mr</option>
+                        <option value="Mrs">Mrs</option>
+                        <option value="Miss">Miss</option>
+                        <option value="Ms">Ms</option>
+                        <option value="Dr">Dr</option>
+                        <option value="Prof">Prof</option>
+                    </select>
+
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+                    <label for="query">Nature of Query:</label>
+                    <select id="query" name="query" required>
+                        <option value="">Select</option>
+                        <option value="buy">Buy books</option>
+                        <option value="sell">Sell books</option>
+                        <option value="return">Return a book</option>
+                        <option value="delivery">Delivery</option>
+                        <option value="complaint">Complaint</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Write your message here..."></textarea>
+
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </section>
+
+        <!-- Delivery Charges Table -->
+        <section class="delivery-charges">
+            <h2>Delivery Charges</h2>
+            <table>
+                <caption>Delivery charges based on location</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Region</th>
+                        <th scope="col">Standard Delivery</th>
+                        <th scope="col">Express Delivery</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">UK</th>
+                        <td>£3.99 + book price</td>
+                        <td>£6.99 + book price</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Europe</th>
+                        <td>€7.99 + book price</td>
+                        <td>€12.99 + book price</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">United States / Canada</th>
+                        <td>$10.99 + book price</td>
+                        <td>$18.99 + book price</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Rest of the World</th>
+                        <td>$15.99 + book price</td>
+                        <td>$25.99 + book price</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</div>
+
+    <footer>
+        <p>&copy; 2025 Emblemy Collectible Books. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

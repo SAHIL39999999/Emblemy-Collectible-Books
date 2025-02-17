@@ -1,0 +1,28 @@
+.wrapper {
+    padding: 30px 40px;
+}
+
+.books-container h2{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.books-container p {
+    margin-bottom: 20px;
+}
+
+.book-image {
+    display: grid;
+    place-content: center;
+}
+
+.img-box {
+    width: 200px;
+}
+.img-box img {
+    width: 100%;
+}
+
+main {
+    padding: 20px 30px;
+}
