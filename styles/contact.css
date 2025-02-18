@@ -9,7 +9,7 @@
 }
 
 body {
-    background-image: url('./images/background/background1.jpg'); 
+    background-image: url('../images/background/background1.jpg'); 
     backdrop-filter: blur(5px);
     background-size: cover;
     background-position: center;
@@ -27,7 +27,7 @@ body {
 }
 
 .main-bg {
-    background-image: url('./images/background/wallpaperflare.com_wallpaper (1).jpg'); 
+    background-image: url('../images/background/backgroundcontact.jpg'); 
     backdrop-filter: blur(5px);
     background-size: cover;
     background-position: center;
